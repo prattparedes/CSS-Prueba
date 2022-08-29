@@ -1,3 +1,11 @@
+/* Poner "*" Hace que TODOS los elementos dentro de el CSS cumplan con esta condicion
+	Puede servir para que empezar un CSS con todo los margenes y paddings en 0 y no confundirse con lo
+	que está por default */
+*{
+	margin: 0;
+	padding: 0;
+}
+
 body {
   background-color: #f4f4f4;
   color: #555555;
@@ -26,6 +34,8 @@ body {
 
 .Caja-1 {
   font: bold 15px Arial;
+  font-style: normal;
+  text-align: justify;
 
   /* Se puede escribir #333333 o #333 porque son el mismo color y este color negro se puede abreviar*/
   background-color: #333;
@@ -38,4 +48,42 @@ body {
   border-left: 10px blue solid;
   border-top: 8px rgb(195, 255, 0) solid;
   border-bottom: 12px rgb(8, 255, 49) solid;
+
+  /* Se puede lograr que todos los bordes sean iguales solo usando border: 5px red solid; */
+  border-bottom-width: 12px;
+  border-right-style: double;
+  border-left-style: dashed;
+
+  padding-top: 0px;
+
+  /* Para un padding en todos los lados al mismo tiempo y por igual */
+  padding:  20px;
+  margin:  20px 0px;
+}
+
+.Caja-1 h1{
+	font-family: Tahoma;
+	font-width: 800;
+	font-style: oblique;
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	word-spacing: 1em;
+}
+
+.Caja-2{
+	border: 5px dotted #ccc;
+	padding: 20px;
+	margin: 20px 5px;
+}
+
+.Categorías{
+	border: 1px #ccc solid;
+	padding-left:  30px;
+	border-radius: 15px;
+	margin: 0px;
+}
+
+.Categorías h2{
+	text-align: center;
 }
