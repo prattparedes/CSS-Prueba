@@ -52,6 +52,17 @@ a:visited{
   margin: auto;
 }
 
+.button{
+	background-color: #333;
+	color: #fff;
+	padding: 10px 15px;
+	border: none;
+}
+
+.button:hover{
+	background: darkred;
+}
+
 .Caja-1 {
   font: bold 15px Arial;
   font-style: normal;
@@ -97,6 +108,11 @@ a:visited{
 	margin: 20px 5px;
 }
 
+.Caja-2 h1{
+	padding-bottom: 10px;
+}
+
+
 .Categorías{
 	border: 1px #ccc solid;
 	padding-left:  30px;
@@ -129,4 +145,32 @@ a:visited{
 	background-repeat: no-repeat;
 	background-position: left center;
 	background-size: 20px;
+}
+
+.Formulario1{
+	padding: 20px;
+}
+
+.Formulario1 .Form-1{
+	padding-bottom: 10px;
+}
+
+.Formulario1 label{
+	display:block;
+}
+
+.Formulario1 input[type="text"], .Formulario1 textarea{
+	padding: 15px 0px 15px 15px;
+	width: 100%;
+}
+
+.Formulario1 input[type="button"]{
+	background-color: #333;
+	color: #fff;
+	padding: 10px 15px;
+	border: none;
+}
+
+.Caja-2 p{
+	margin-bottom: 10px;
 }
