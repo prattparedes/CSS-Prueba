@@ -248,3 +248,30 @@ a:visited {
 	al mover la pantalla arriba/Abajo en un punto */
 	top: 400px;
 }
+
+/* First child targetea al primer item a la lista */
+.ItemsLista li:first-child{
+	background: red;
+}
+
+.ItemsLista li:last-child{
+	background: yellow;
+}
+
+/* nth-child targetea al numero que pongas en parentesis en orden */
+.ItemsLista li:nth-child(6){
+
+	background: blue
+}
+
+/* También se puede poner pares e impares */
+.ItemsLista li:nth-child(even){
+	background: grey
+}
+
+/* even = par, odd = impar */
+
+.ItemsLista li:nth-child(odd){
+
+	background: purple
+}
