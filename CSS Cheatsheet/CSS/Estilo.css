@@ -63,6 +63,10 @@ a:visited{
 	background: darkred;
 }
 
+.clr{
+	clear: both;
+}
+
 .Caja-1 {
   font: bold 15px Arial;
   font-style: normal;
@@ -164,13 +168,21 @@ a:visited{
 	width: 100%;
 }
 
-.Formulario1 input[type="button"]{
-	background-color: #333;
-	color: #fff;
-	padding: 10px 15px;
-	border: none;
-}
-
 .Caja-2 p{
 	margin-bottom: 10px;
 }
+
+.Formulario1 input[class="button"]{
+	width: 70px;
+}
+
+.block{
+	float: left;
+	width: 33.3%;
+	padding: 10px;
+	text-align: justify;
+	border: 1.5px solid #ccc;
+
+	/* Con esto permitimos que el padding entre dentro del 33.3% y quepan las
+		cajas de texto dentro de la misma línea */
+	box-sizing: border-box;
