@@ -223,7 +223,10 @@ a:visited {
 	position:relative;
 	/* Position: relative es para poder posicionar elementos en top,bottom,left,right;
 	pero enmarcados en un elemento que queramos (como en esta caja) */
-
+	background-image:url('../Imágenes/LuzImagen.webp');
+	background-position: 100px 200px;
+	background-repeat: no-repeat;
+	background-position: center	right;
 }
 
 .p-box h1{
@@ -231,8 +234,17 @@ a:visited {
 	top: 100px;
 	left: 200px;
 }
+
 .p-box h2{
 	position: absolute;
 	bottom: 40px;
 	right: 100px;
+}
+
+.fix-me{
+	position: fixed;
+
+	/* Con position:  fixed podemos generar un elemento que se quede estatico;
+	al mover la pantalla arriba/Abajo en un punto */
+	top: 400px;
 }
