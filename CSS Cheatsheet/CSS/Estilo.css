@@ -1,9 +1,9 @@
 /* Poner "*" Hace que TODOS los elementos dentro de el CSS cumplan con esta condicion
 	Puede servir para que empezar un CSS con todo los margenes y paddings en 0 y no confundirse con lo
 	que está por default */
-*{
-	margin: 0;
-	padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -25,23 +25,23 @@ body {
 }
 
 /* Agregar estilo a cualquier a link */
-a{
-	text-decoration: none;
-	color: #000;
+a {
+  text-decoration: none;
+  color: #000;
 }
 
 /* Agregar estilo cuando se pasa el mouse (Estado) */
-a:hover{
-	color: blue;
+a:hover {
+  color: blue;
 }
 /* Agregar un Active state para que MIENTRAS SE MANTIENE PULSADO se ponga de otra forma*/
-a:active{
-	color: green;
+a:active {
+  color: green;
 }
 
 /* Después de ser pulsado*/
-a:visited{
-	color: purple;
+a:visited {
+  color: purple;
 }
 
 /* Agregar un contenedor al texto para que tenga un tamaño de largo determinado máximo, se puede poner en px o en %*/
@@ -52,19 +52,19 @@ a:visited{
   margin: auto;
 }
 
-.button{
-	background-color: #333;
-	color: #fff;
-	padding: 10px 15px;
-	border: none;
+.button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
 }
 
-.button:hover{
-	background: darkred;
+.button:hover {
+  background: darkred;
 }
 
-.clr{
-	clear: both;
+.clr {
+  clear: both;
 }
 
 .Caja-1 {
@@ -92,97 +92,147 @@ a:visited{
   padding-top: 0px;
 
   /* Para un padding en todos los lados al mismo tiempo y por igual */
-  padding:  20px;
-  margin:  20px 0px;
+  padding: 20px;
+  margin: 20px 0px;
 }
 
-.Caja-1 h1{
-	font-family: Tahoma;
-	font-width: 800;
-	font-style: oblique;
-	text-decoration: underline;
-	text-transform: uppercase;
-	letter-spacing: 0.2em;
-	word-spacing: 1em;
+.Caja-1 h1 {
+  font-family: Tahoma;
+  font-width: 800;
+  font-style: oblique;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  word-spacing: 1em;
 }
 
-.Caja-2{
-	border: 5px dotted #ccc;
-	padding: 20px;
-	margin: 20px 5px;
+.Caja-2 {
+  border: 5px dotted #ccc;
+  padding: 20px;
+  margin: 20px 5px;
 }
 
-.Caja-2 h1{
-	padding-bottom: 10px;
+.Caja-2 h1 {
+  padding-bottom: 10px;
 }
 
-
-.Categorías{
-	border: 1px #ccc solid;
-	padding-left:  30px;
-	border-radius: 15px;
-	margin: 0px;
+.Categorías {
+  border: 1px #ccc solid;
+  padding-left: 30px;
+  border-radius: 15px;
+  margin: 0px;
 }
 
-.Categorías h2{
-	text-align: center;
+.Categorías h2 {
+  text-align: center;
 }
 
-.Categorías ul{
-	padding: 0px;
-	list-style: square;
-	list-style: none;
+.Categorías ul {
+  padding: 0px;
+  list-style: square;
+  list-style: none;
 }
 
-.Categorías li{
-	padding-bottom: 0px;
-	border-bottom: dotted 3px #333;
-	list-style-image: url("../Imágenes/1200px-Red_Checkmark.svg.png");
-	
-	/* Truco para redimensionar una imagen en la lista utilizandolo como un Background Image cambiando
+.Categorías li {
+  padding-bottom: 0px;
+  border-bottom: dotted 3px #333;
+  list-style-image: url("../Imágenes/1200px-Red_Checkmark.svg.png");
+
+  /* Truco para redimensionar una imagen en la lista utilizandolo como un Background Image cambiando
 	el Background size,position,repeat,padding,margin, etc.*/
-	
-	margin: 0;
-	padding: 5px 0px 5px 25px;
-	list-style: none;
-	background-image: url("../Imágenes/1200px-Red_Checkmark.svg.png");
-	background-repeat: no-repeat;
-	background-position: left center;
-	background-size: 20px;
+
+  margin: 0;
+  padding: 5px 0px 5px 25px;
+  list-style: none;
+  background-image: url("../Imágenes/1200px-Red_Checkmark.svg.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 20px;
 }
 
-.Formulario1{
-	padding: 20px;
+.Formulario1 {
+  padding: 20px;
 }
 
-.Formulario1 .Form-1{
-	padding-bottom: 10px;
+.Formulario1 .Form-1 {
+  padding-bottom: 10px;
 }
 
-.Formulario1 label{
-	display:block;
+.Formulario1 label {
+  display: block;
 }
 
-.Formulario1 input[type="text"], .Formulario1 textarea{
-	padding: 15px 0px 15px 15px;
-	width: 100%;
+.Formulario1 input[type="text"],
+.Formulario1 textarea {
+  padding: 15px 0px 15px 15px;
+  width: 100%;
 }
 
-.Caja-2 p{
-	margin-bottom: 10px;
+.Caja-2 p {
+  margin-bottom: 10px;
 }
 
-.Formulario1 input[class="button"]{
-	width: 70px;
+.Formulario1 input[class="button"] {
+  width: 70px;
 }
 
-.block{
-	float: left;
-	width: 33.3%;
-	padding: 10px;
-	text-align: justify;
-	border: 1.5px solid #ccc;
+.block {
+  float: left;
+  width: 33.3%;
+  padding: 10px;
+  text-align: justify;
+  border: 1.5px solid #ccc;
+  margin-bottom: 15px;
 
-	/* Con esto permitimos que el padding entre dentro del 33.3% y quepan las
+  /* Con esto permitimos que el padding entre dentro del 33.3% y quepan las
 		cajas de texto dentro de la misma línea */
-	box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#main-block {
+  float: left;
+  width: 70%;
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+#sidebar {
+  float: right;
+  width: 30%;
+  box-sizing: border-box;
+  padding: 15px;
+  background-color: black;
+  color: #fff;
+}
+
+.p-box h1{
+	padding: 10px;
+	margin: 10px;
+}
+
+.p-box h2{
+	padding: 10px;
+	margin: 10px;
+}
+
+.p-box{
+	width: 800px;
+	height: 500px;
+	border: 2.5px solid blueviolet;
+	margin-top: 30px;
+	position:relative;
+	/* Position: relative es para poder posicionar elementos en top,bottom,left,right;
+	pero enmarcados en un elemento que queramos (como en esta caja) */
+
+}
+
+.p-box h1{
+	position: absolute;
+	top: 100px;
+	left: 200px;
+}
+.p-box h2{
+	position: absolute;
+	bottom: 40px;
+	right: 100px;
+}
