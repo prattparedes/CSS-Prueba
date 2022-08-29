@@ -24,6 +24,26 @@ body {
   margin: 0;
 }
 
+/* Agregar estilo a cualquier a link */
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+/* Agregar estilo cuando se pasa el mouse (Estado) */
+a:hover{
+	color: blue;
+}
+/* Agregar un Active state para que MIENTRAS SE MANTIENE PULSADO se ponga de otra forma*/
+a:active{
+	color: green;
+}
+
+/* Después de ser pulsado*/
+a:visited{
+	color: purple;
+}
+
 /* Agregar un contenedor al texto para que tenga un tamaño de largo determinado máximo, se puede poner en px o en %*/
 .Container {
   width: 80%;
@@ -86,4 +106,27 @@ body {
 
 .Categorías h2{
 	text-align: center;
+}
+
+.Categorías ul{
+	padding: 0px;
+	list-style: square;
+	list-style: none;
+}
+
+.Categorías li{
+	padding-bottom: 0px;
+	border-bottom: dotted 3px #333;
+	list-style-image: url("../Imágenes/1200px-Red_Checkmark.svg.png");
+	
+	/* Truco para redimensionar una imagen en la lista utilizandolo como un Background Image cambiando
+	el Background size,position,repeat,padding,margin, etc.*/
+	
+	margin: 0;
+	padding: 5px 0px 5px 25px;
+	list-style: none;
+	background-image: url("../Imágenes/1200px-Red_Checkmark.svg.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 20px;
 }
