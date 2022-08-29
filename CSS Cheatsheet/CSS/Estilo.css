@@ -1,31 +1,41 @@
-body{
-	background-color: #f4f4f4;
-	color: #555555;
+body {
+  background-color: #f4f4f4;
+  color: #555555;
 
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 20px;
-	font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: normal;
 
-	/* Usar font: tiene el mismo efecto que usar font family font size font weight */
-	font: normal 20px Arial, Helveitca, sans-serif;
+  /* Usar font: tiene el mismo efecto que usar font family font size font weight */
+  font: normal 20px Arial, Helveitca, sans-serif;
 
-	/* Más espacio entre líneas */
-	Line-height:1.6em;
-	/* También se puede usar px en vez de em
+  /* Más espacio entre líneas */
+  line-height: 1.6em;
+  /* También se puede usar px en vez de em
 	line-height: 3px; pero generalmente se usa em  */
-	margin: 0;
+  margin: 0;
 }
 
-/* Agregar un contenedor al texto para que tenga un tamaño de largo determinado máximo*/
-.Container{
-	width: 500px;
+/* Agregar un contenedor al texto para que tenga un tamaño de largo determinado máximo, se puede poner en px o en %*/
+.Container {
+  width: 80%;
+
+  /* Espaciamiento entre un elemento, en auto pone mismo espacio a la izquierda como a la derecha */
+  margin: auto;
 }
 
-.Caja-1{
-	font: bold 15px Arial;
-	/* Se puede escribir #333333 o #333 porque son el mismo color y este color negro se puede abreviar*/
-	background-color: #333;
-	/* Blanco es #ffffff o #fff */
-	color: #fff;
+.Caja-1 {
+  font: bold 15px Arial;
 
+  /* Se puede escribir #333333 o #333 porque son el mismo color y este color negro se puede abreviar*/
+  background-color: #333;
+
+  /* Blanco es #ffffff o #fff */
+  color: #fff;
+
+  /* Ver la diferencia entre Border/Margin/Padding */
+  border-right: 5px red solid;
+  border-left: 10px blue solid;
+  border-top: 8px rgb(195, 255, 0) solid;
+  border-bottom: 12px rgb(8, 255, 49) solid;
 }
